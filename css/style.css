@@ -1,0 +1,160 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.254rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+P {
+  padding-bottom: 0.6em;
+}
+img {
+  padding: 0.9em 0;
+  max-width: 100%;
+}
+section {
+  display: grid;
+  justify-content: center;
+  margin: 3em 0.5em;
+}
+
+.section-title,
+.title-pgno1,
+.sub-title {
+  padding: 0.6em 0;
+  text-transform: capitalize;
+}
+
+header {
+  background-attachment: fixed;
+  font-size: 5rem;
+  background-size: cover;
+  padding: 10vh 0;
+  background-position: center;
+  background-image: url(/images/bg-header-mobile.png);
+}
+
+.set-img {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.btn-ios,
+.btn-mac {
+  padding: 0.7em;
+}
+.btn-grouph {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6em 0;
+}
+button {
+  border-radius: 50px;
+  padding: 1em 5em;
+  color: white;
+}
+.btn1 {
+  border: none;
+  box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.3);
+  background-color: hsl(171, 66%, 44%);
+}
+.btn2 {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.3);
+}
+footer {
+  background-color: hsl(0, 0%, 93%);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.soical-links {
+  padding: 0.8em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soical-links img {
+  padding: 0.9em;
+}
+.footer-logo {
+  font-size: 5rem;
+  padding: 0.7em 0;
+}
+@media only screen and (min-width: 756px) {
+  .set-img {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-around;
+  }
+  .set-img img {
+    margin: 0 1.5rem;
+  }
+  .btn-grouph {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .btn-ios,
+  .btn-mac {
+    padding-top: 1.5em;
+  }
+  .section-title {
+    font-size: 2.3rem;
+  }
+  .title-pgno1 {
+    font-size: 2.9rem;
+  }
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .btn1,
+  .btn2 {
+    font-size: 1.21rem;
+  }
+  .sub-title {
+    font-size: 2rem;
+  }
+  footer,
+  nav {
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .float {
+    padding: 0.6em 0;
+  }
+  .float img {
+    padding-right: 0.9em;
+    float: left;
+  }
+  header {
+    background-image: url(/images/bg-header-desktop.png);
+  }
+}
