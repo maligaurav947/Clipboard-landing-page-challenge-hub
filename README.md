@@ -6,4 +6,5 @@ and let me tell you one think this website is fully responsive to all device lik
 the challange was fun
 
 
-![screencapture-file-I-VS-Code-Working-On-clipboard-landing-page-master-index-html-2022-03-17-18_36_05](https://user-images.githubusercontent.com/86152880/158814884-44764a2e-616c-496d-b7ca-0b4e3b4d8a0d.png)
+
+![screencapture-maligaurav947-github-io-Clipboard-landing-page-challenge-hub-2022-03-18-05_40_15](https://user-images.githubusercontent.com/86152880/158913572-87798208-0b3a-4fa1-ba1f-5f54c02b42fe.png)
