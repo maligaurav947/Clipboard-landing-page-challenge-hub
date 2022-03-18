@@ -48,7 +48,7 @@ header {
   background-size: cover;
   padding: 10vh 0;
   background-position: center;
-  background-image: url(/images/bg-header-mobile.png);
+  background-image: url(images\bg-header-mobile.png);
 }
 
 .set-img {
@@ -155,6 +155,6 @@ nav {
     float: left;
   }
   header {
-    background-image: url(/images/bg-header-desktop.png);
+    background-image: url(images\bg-header-desktop.png);
   }
 }
